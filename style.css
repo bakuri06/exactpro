@@ -64,6 +64,7 @@ img {
     color: #223244;
     padding: 19px;
 }
+
 #headerButtons:hover {
     color: #3f979f;
 }
@@ -454,7 +455,33 @@ img {
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 5px;
+
    }
+
+}
+
+@media (max-width:550px){
+    #headerButtons{
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        display: flex;
+        align-items: center;
+   }
+
+   
+   .fa-bars{
+    padding:0 5px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.footer__logo {
+    width: 50%;
+}
 }
 @media (max-width: 1499px) {
     .header-title__slogan {
